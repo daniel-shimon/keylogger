@@ -1,0 +1,23 @@
+﻿Build started 4/16/2017 14:53:31.
+     1>Project "D:\KeyLogger\KeyLoggerDLL\KeyLoggerDLL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Home\Desktop\Projects\KeyLogger\KeyLogger /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KEYLOGGERDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Home\Desktop\Projects\KeyLogger\KeyLogger /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KEYLOGGERDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt KeyLoggerDLL.cpp stdafx.cpp
+         stdafx.cpp
+         KeyLoggerDLL.cpp
+     1>d:\keylogger\keyloggerdll\keyloggerdll.cpp(290): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>d:\keylogger\keyloggerdll\keyloggerdll.cpp(291): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\KeyLogger\Debug\KeyLoggerDLL.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib C:\Users\Home\Desktop\Projects\KeyLogger\KeyLogger\Debug\ClientSocket kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\KeyLogger\Debug\KeyLoggerDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\KeyLogger\Debug\KeyLoggerDLL.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\KeyLoggerDLL.obj
+         Debug\stdafx.obj
+         LINK : D:\KeyLogger\Debug\KeyLoggerDLL.dll not found or not built by the last incremental link; performing full link
+            Creating library D:\KeyLogger\Debug\KeyLoggerDLL.lib and object D:\KeyLogger\Debug\KeyLoggerDLL.exp
+         KeyLoggerDLL.vcxproj -> D:\KeyLogger\Debug\KeyLoggerDLL.dll
+     1>Done Building Project "D:\KeyLogger\KeyLoggerDLL\KeyLoggerDLL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.90

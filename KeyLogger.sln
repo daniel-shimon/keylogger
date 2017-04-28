@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyLogger", "KeyLogger\KeyLogger.vcxproj", "{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyLoggerDLL", "KeyLoggerDLL\KeyLoggerDLL.vcxproj", "{3DD87412-FE8D-409F-A814-BE2970ADC64B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E} = {04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{58C11BCC-CEFB-41F6-A507-E78830B415F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleLoggerHelper", "ConsoleLoggerHelper\ConsoleLoggerHelper.vcxproj", "{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}.Debug|x64.ActiveCfg = Debug|x64
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}.Debug|x64.Build.0 = Debug|x64
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}.Debug|x86.ActiveCfg = Debug|Win32
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}.Debug|x86.Build.0 = Debug|Win32
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}.Release|x64.ActiveCfg = Release|x64
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}.Release|x64.Build.0 = Release|x64
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}.Release|x86.ActiveCfg = Release|Win32
+		{04BC18A1-2C6B-4DA1-973F-6C91C83FD91E}.Release|x86.Build.0 = Release|Win32
+		{3DD87412-FE8D-409F-A814-BE2970ADC64B}.Debug|x64.ActiveCfg = Debug|x64
+		{3DD87412-FE8D-409F-A814-BE2970ADC64B}.Debug|x64.Build.0 = Debug|x64
+		{3DD87412-FE8D-409F-A814-BE2970ADC64B}.Debug|x86.ActiveCfg = Debug|Win32
+		{3DD87412-FE8D-409F-A814-BE2970ADC64B}.Debug|x86.Build.0 = Debug|Win32
+		{3DD87412-FE8D-409F-A814-BE2970ADC64B}.Release|x64.ActiveCfg = Release|x64
+		{3DD87412-FE8D-409F-A814-BE2970ADC64B}.Release|x64.Build.0 = Release|x64
+		{3DD87412-FE8D-409F-A814-BE2970ADC64B}.Release|x86.ActiveCfg = Release|Win32
+		{3DD87412-FE8D-409F-A814-BE2970ADC64B}.Release|x86.Build.0 = Release|Win32
+		{58C11BCC-CEFB-41F6-A507-E78830B415F8}.Debug|x64.ActiveCfg = Debug|x64
+		{58C11BCC-CEFB-41F6-A507-E78830B415F8}.Debug|x64.Build.0 = Debug|x64
+		{58C11BCC-CEFB-41F6-A507-E78830B415F8}.Debug|x86.ActiveCfg = Debug|Win32
+		{58C11BCC-CEFB-41F6-A507-E78830B415F8}.Debug|x86.Build.0 = Debug|Win32
+		{58C11BCC-CEFB-41F6-A507-E78830B415F8}.Release|x64.ActiveCfg = Release|x64
+		{58C11BCC-CEFB-41F6-A507-E78830B415F8}.Release|x64.Build.0 = Release|x64
+		{58C11BCC-CEFB-41F6-A507-E78830B415F8}.Release|x86.ActiveCfg = Release|Win32
+		{58C11BCC-CEFB-41F6-A507-E78830B415F8}.Release|x86.Build.0 = Release|Win32
+		{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}.Debug|x64.ActiveCfg = Debug|x64
+		{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}.Debug|x64.Build.0 = Debug|x64
+		{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}.Debug|x86.Build.0 = Debug|Win32
+		{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}.Release|x64.ActiveCfg = Release|x64
+		{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}.Release|x64.Build.0 = Release|x64
+		{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}.Release|x86.ActiveCfg = Release|Win32
+		{FCBF71AB-03EC-4F75-825B-D5EFDE764FF7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

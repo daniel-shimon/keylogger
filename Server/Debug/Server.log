@@ -1,0 +1,62 @@
+﻿Build started 4/16/2017 15:20:56.
+     1>Project "D:\KeyLogger\Server\Server.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleLogger.cpp Server.cpp
+         ConsoleLogger.cpp
+     1>d:\keylogger\server\consolelogger.cpp(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>d:\keylogger\server\consolelogger.cpp(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\keylogger\server\consolelogger.cpp(67): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: see declaration of 'strcat'
+     1>d:\keylogger\server\consolelogger.cpp(72): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(920): note: see declaration of 'mbstowcs'
+     1>d:\keylogger\server\consolelogger.cpp(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\keylogger\server\consolelogger.cpp(105): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(920): note: see declaration of 'mbstowcs'
+     1>d:\keylogger\server\consolelogger.cpp(111): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+     1>d:\keylogger\server\consolelogger.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\keylogger\server\consolelogger.cpp(150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\keylogger\server\consolelogger.cpp(164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\keylogger\server\consolelogger.cpp(240): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+     1>d:\keylogger\server\consolelogger.cpp(431): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+     1>d:\keylogger\server\consolelogger.cpp(460): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Server.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\KeyLogger\Debug\Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib C:\Users\Home\Desktop\Projects\KeyLogger\Server\Debug\ConsoleLogger kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\KeyLogger\Debug\Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\KeyLogger\Debug\Server.lib" /MACHINE:X86 Debug\ConsoleLogger.obj
+         Debug\Server.obj
+         Debug\ServerSocket.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: __thiscall CConsoleLogger::CConsoleLogger(void)" (??0CConsoleLogger@@QAE@XZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: __thiscall CConsoleLoggerEx::CConsoleLoggerEx(void)" (??0CConsoleLoggerEx@@QAE@XZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: virtual __thiscall CConsoleLogger::~CConsoleLogger(void)" (??1CConsoleLogger@@UAE@XZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: long __thiscall CConsoleLogger::Close(void)" (?Close@CConsoleLogger@@QAEJXZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: long __thiscall CConsoleLogger::Create(char const *,int,int,char const *,char const *)" (?Create@CConsoleLogger@@QAEJPBDHH00@Z) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: static int __cdecl CConsoleLogger::ResetDefaultOutput(void)" (?ResetDefaultOutput@CConsoleLogger@@SAHXZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: int __thiscall CConsoleLogger::SetAsDefaultOutput(void)" (?SetAsDefaultOutput@CConsoleLogger@@QAEHXZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "protected: virtual int __thiscall CConsoleLoggerEx::_cprint(int,char const *,int)" (?_cprint@CConsoleLoggerEx@@MAEHHPBDH@Z) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "protected: virtual int __thiscall CConsoleLogger::_print(char const *,int)" (?_print@CConsoleLogger@@MAEHPBDH@Z) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "protected: virtual int __thiscall CConsoleLoggerEx::_print(char const *,int)" (?_print@CConsoleLoggerEx@@MAEHPBDH@Z) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: void __thiscall CConsoleLoggerEx::clear_eol(unsigned long)" (?clear_eol@CConsoleLoggerEx@@QAEXK@Z) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: void __thiscall CConsoleLoggerEx::clear_eol(void)" (?clear_eol@CConsoleLoggerEx@@QAEXXZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: void __thiscall CConsoleLoggerEx::cls(unsigned long)" (?cls@CConsoleLoggerEx@@QAEXK@Z) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: void __thiscall CConsoleLoggerEx::cls(void)" (?cls@CConsoleLoggerEx@@QAEXXZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: int __cdecl CConsoleLoggerEx::cprintf(int,char const *,...)" (?cprintf@CConsoleLoggerEx@@QAAHHPBDZZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: int __cdecl CConsoleLoggerEx::cprintf(char const *,...)" (?cprintf@CConsoleLoggerEx@@QAAHPBDZZ) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: void __thiscall CConsoleLoggerEx::gotoxy(int,int)" (?gotoxy@CConsoleLoggerEx@@QAEXHH@Z) already defined in ConsoleLogger.obj
+     1>ConsoleLogger.obj : error LNK2005: "public: int __cdecl CConsoleLogger::printf(char const *,...)" (?printf@CConsoleLogger@@QAAHPBDZZ) already defined in ConsoleLogger.obj
+     1>D:\KeyLogger\Debug\Server.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "D:\KeyLogger\Server\Server.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.07
